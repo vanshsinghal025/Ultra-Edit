@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+nav{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    height: 100px;
+    /* width: 91vw; */
+}
+
+nav .logo img{
+    height: 60px;
+}
+
+nav .option ul{
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav .option ul li{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+nav .nav-items::after{
+    content: "🔻";
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+nav .buy-now{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav #translate{
+    color: black;
+}
+
+article #Information{
+    
+}
